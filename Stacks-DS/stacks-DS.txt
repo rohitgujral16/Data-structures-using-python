@@ -1,0 +1,5 @@
+Stacks are LIFO
+eg maintaining browser history in order and can go reverse
+eg undo functionality
+
+pop()  # will get and remove the element

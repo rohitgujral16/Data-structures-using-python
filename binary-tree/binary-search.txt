@@ -1,0 +1,19 @@
+ each node can havem ax 2 nodes.
+ understand order (values on left will be less and right ones will have value greater)
+ elements are not duplicated
+           15
+    12          27
+  7    14    20    88
+               23
+# If we study this binary search tree then node's smaller element are put on left and greater on right eg 12 is smaller
+# than 15 and 27 is bigger than 15
+# Now if I have to insert "13" then it will come below node "14" om left side
+No duplicate elements allowed
+
+# Breadth search
+#Depth first search
+in-order traversal - node should be in middle eg  [7,12,14,15,20,23,27,88]
+pre-order trversal - node should be first     eg  [15,12,7,14,27,20,23,88]
+post order traversal - node should be at last eg [7,14,12,23,20,88,27,15]
+Always left is traversed before right , consider each as a node for eg in above nodes are 15, 12, 27, 20 (which has some values below them)
+max 2 values per nodes
